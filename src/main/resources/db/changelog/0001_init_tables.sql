@@ -4,7 +4,7 @@ create table users(
         surname varchar(255) not null,
         identity_no varchar(11) not null unique,
         gender varchar(11) not null,
-        urole varchar(16) not null,
+        urole varchar(16) not null
 );
 
 create table lectures(
